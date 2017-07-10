@@ -172,7 +172,7 @@ body
 
 .slick-dots 
 	li
-		:hover
+		&:hover
 			color: #2e2e2e
 			padding: 0 0
 			background: #2e2e2e		
@@ -218,17 +218,15 @@ body
 		color: #fff
 		background: transparent
 		border: 3px solid #fff
-		&:hover
-			color: #eee
-			border: 3px solid #eee
-		&:active
-			color: #2e2e2e
-			border: 3px solid #2e2e2e
+.carousel2-button
+	&:hover
+		color: #eee
+		border-color: #eee
+	&:active
+		color: #2e2e2e
+		border: 3px solid #2e2e2e
 .carousel2-item-img
 	margin: 300px 0 0 10%
-	img
-	height: auto
-	width: 100%
 .footer-wrap
 	top: 200px
 	height: 640px
@@ -294,8 +292,6 @@ body
 @media screen and (min-width: 1915px)
 	.slick-slide
 		background-size: 100%
-
-
 @media screen and (max-width: 1150px)
 	.carousel2-item-img
 		display: none
@@ -309,6 +305,13 @@ body
 		display: none
 	p
 		width: 380px
+	.body-box-wrap
+		height: auto
+		flex-direction: column
+		margin: 150px auto 100px
+		width: 320px
+	.body-box-wrap-document
+		margin: 10px 5px
 @media screen and (max-width: 768px)
 	.header-wrap
 		max-width: 768px

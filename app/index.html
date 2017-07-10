@@ -16,8 +16,8 @@
 	 <link rel="stylesheet" type="text/css" href="css/main.css" media="only screen and (min-width:1915px)">
 </head>
 <body>
-	<header>
-
+	
+	<div class="header">
 		<div class="header-wrap">
 			<div class="header-wrap-logo">
 				<img src="img/logo.png" alt="#">
@@ -27,7 +27,7 @@
 		</div>
 
 		<div class="header-baner">
-			<input type="text" value="Enter your zip code" class="header-baner-input">
+			<input type="text" placeholder ="Enter your zip code" class="header-baner-input">
 			<div class="header-banner-conteiner">
 				<img src="img/Layer 3.png" alt="#">
 				<img src="img/Layer 13.png" alt="#">
@@ -43,9 +43,9 @@
 			<p>This is Photoshop's version  of Lorem <br>Ipsum.</p>
 			<input type="button" value="PRESS ME" class="header-baner-button">
 		</div>
-	</header>
+	</div>
 
-	<body>
+	<div class="body">
 		<div class="body-box-wrap">
 			<div class="body-box-wrap-document">
 				<img src="img/document.png" alt="#">
@@ -109,14 +109,15 @@
 				<input type="button" value="Download" class="carousel2-button">
 				</div></div>
 		</div>
-	</body>
-	<footer>
+	</div>
+	
+	<div class="footer">
 		<div class="footer-form">
 		<form>
-			<input type="text" class="form-name" placeholder="Name"  id="user_name">
-			<input type="e-mail" class="" id="user_email" placeholder="email address">
-			<textarea id="text_comment" value="Message">Message</textarea>
-			<input type="button" class="form-button" id="btn_submit">
+			<input type="text" class="form-name" placeholder="Name"  id="user_name" required>
+			<input type="email" class="" id="user_email" placeholder="email address" required>
+			<textarea id="text_comment" placeholder="Message"></textarea>
+			<input type="submit" value="" class="form-button" id="btn_submit">
 		</form>
 		</div>
 
@@ -125,7 +126,7 @@
 		<div class="footer-titlle">
 			<p>© Copyright 2013 Css Author, All Rights Reserved.</p>
 		</div>
-	</footer>
+	</div>
 
 	<script src="libs/jquery/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
